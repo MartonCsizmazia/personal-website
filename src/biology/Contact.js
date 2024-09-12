@@ -26,7 +26,7 @@ const Contact = () => {
                 </div>
             </div>
         </ContactContainer>
-);
+    );
 };
 
 export default Contact;
@@ -42,6 +42,7 @@ const ContactContainer = styled.div`
         color: #333;
         margin-bottom: 40px;
         font-weight: bold;
+        font-family: 'Playfair Display',serif;
     }
 
     p {

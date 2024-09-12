@@ -2,6 +2,7 @@ import React from 'react';
 import './Biology.css';
 import { Link } from 'react-scroll';
 import styled from 'styled-components';
+import "@fontsource/playfair-display";
 
 import Introduction from './Introduction';
 import Study from './Study';
@@ -70,13 +71,9 @@ const NavLink = styled(Link)`
 `;
 
 const Section = styled.section`
-    //padding: 20px 0;
     &:nth-child(even) {
-        //background-color: #f0e4d7; /* Base color resembling paper */
-        //background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><circle cx="1" cy="1" r="1" fill="rgba(0,0,0,0.05)"/></svg>');
         background-size: 5px 5px;
     }
     &:nth-child(odd) {
-        //background: #f7f7f7;
     }
 `;

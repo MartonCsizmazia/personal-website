@@ -5,7 +5,7 @@ const Introduction = () => {
     return (
         <IntroContainer>
             <div className="section-container">
-                <h1>Welcome to Biology Tutoring</h1>
+                <h1>Középiskolásokat készítek fel az érettségire.</h1>
                 <p>
                     Szia! Ha közép- vagy emelt szintű biológia érettségire készülsz, akkor jó helyen jársz! Egyénre
                     szabott, barátságos órákat tartok, ahol csak te és én dolgozunk együtt – így minden figyelem rád
@@ -24,12 +24,13 @@ export default Introduction;
 const IntroContainer = styled.div`
     text-align: center;
     padding: 100px 0;
-    background-color: #fbb04c;
+    //background-color: #77dd77;
+    background-color: #fbf7ee;
 
     h1 {
         font-size: 3rem;
         color: #31302f;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Playfair Display',serif;
         font-weight: bold;
         margin-bottom: 40px;
     }

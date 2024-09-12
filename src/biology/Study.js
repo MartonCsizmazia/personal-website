@@ -6,12 +6,12 @@ const Study = () => {
     return (
         <StudyContainer>
             <div className="section-container">
-                <h2>Study Resources</h2>
+                <h2>Tanulás</h2>
                 <p>Explore our comprehensive resources for high school biology.</p>
-                <button>Start Learning</button>
+                {/*<button>Start Learning</button>*/}
             </div>
         </StudyContainer>
-);
+    );
 };
 
 export default Study;
@@ -28,6 +28,7 @@ const StudyContainer = styled.div`
         color: #333;
         margin-bottom: 20px;
         font-weight: bold;
+        font-family: 'Playfair Display',serif;
     }
 
     p {
